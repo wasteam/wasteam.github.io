@@ -1,0 +1,353 @@
+/* Site Header
+ * ============================================== */
+    .site-header {
+        background: #f0f0f0;
+        border-bottom: 1px solid #dddddd;
+        box-shadow: 0 0 3px rgba(190, 190, 190, 0.75);
+        padding: 20px 0;
+        margin-bottom: 20px;
+        .content{
+            .col-2:nth-child(2){
+                text-align: right;
+            }
+            .start-new-button{
+                box-sizing: border-box;
+                min-height: 62px;
+                min-width: 100px;
+                padding: 18px 25px 10px 58px;
+                font-size: 18px;
+                color: #fff;
+                background-color: #666;
+                background-image: url('../startnew.png');
+                background-repeat: no-repeat;
+                background-position: 18px center;
+                width: 240px;
+                text-align: left;
+                display: inline-block;
+                cursor: pointer;
+            }
+        }    
+    }
+
+    .site-header a, a h1:hover {color: #FFF};
+
+    .site-header h1 {
+        display: block;
+        font-size: 80px !important;
+        line-height: 80px;
+        letter-spacing: 3px;
+        text-align: center;
+        padding-top: 20px;
+        clear: both;
+        text-transform: uppercase;
+        font-family: 'Open Sans';
+
+        @include media-query($on-palm) {
+            font-size:60px !important;
+            letter-spacing: 0px;
+        }
+    }
+
+    .site-header span {
+        border: 10px solid #FFF;
+        padding: 0.3em 0.5em;
+        margin: 10px 20px;
+        display: inline-block;
+
+        @include media-query($on-palm) {
+            margin: 10px 10px;
+            padding: 0.15em 0.4em;
+        }
+    }
+
+    .site-nav {
+        float: right;
+        line-height: 56px;
+        margin-right: 25px;
+        padding-bottom: 100px;
+
+        .page-link {
+            line-height: $base-line-height;
+            font-weight: bold;
+            letter-spacing: 0.05em;
+
+            &:not(:first-child) {
+                margin-left: 20px;
+            }
+        }
+
+        .page-link:hover {
+            opacity: 0.8;
+        }
+
+        @include media-query($on-palm) {
+            padding-bottom: 10px;
+        }
+    }
+
+/* Site Footer
+ * ============================================== */
+    .footer {
+        background-color: #262626;
+        color: #fff;
+        margin-bottom: 0;
+        padding: 40px 0;
+        font-family: Open Sans;
+    }
+/* Individual Posts
+ * ============================================== */
+    .page-content {
+        padding: $spacing-unit 0;
+        text-align: justify;
+    }
+
+    .page-heading {
+        font-size: 29px !important;
+        padding-top: 2px;
+        border-bottom: 1px solid #c7c6c6;
+        margin-bottom: 20px;
+    }
+
+/* Archive
+ * ============================================== */
+    .post-list {
+        margin-left: 0;
+        list-style: none;
+    
+        > li {
+            display: block;
+            border: 1px solid #d4d4d4;
+            border-radius: 2px;
+            padding: 20px;
+            -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+            margin-bottom: 20px;
+
+            .post-date{
+                display: inline-block;
+                vertical-align: top;
+                width: 10%;
+                span{
+                    display: block;
+                    text-align: center;
+                }
+                .day{
+                    font-size: 40px;
+                    line-height: 46px;
+                    color: #00a2f4;
+                }
+                .month{
+                    font-size: 21px;
+                    color: #3cbdb7;
+                }
+                .year{
+                    font-size: 20px;
+                    line-height: 32px;
+                    color: #3cbdb7;
+                }
+            }
+            .post-text{
+                display: inline-block;
+                vertical-align: top;
+                width: 89%;
+                
+                .post-title{
+                    font-family: 'Open Sans';
+                    font-weight: 300;
+                    font-size: 27px;
+                    letter-spacing: -1px;
+                    color: #454545;
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 17px;
+                }
+                .post-description{
+                    font-size: 16px;
+                    font-family: 'Open Sans';
+                    color: #454545;
+                }
+            }
+        }
+
+    }
+
+    .post-link {
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 1.5em;
+        letter-spacing: -1px;
+        color: #454545;
+        display: block;
+        width: 100%;
+        line-height: 18px;
+        
+
+        @include media-query($on-palm) {
+            font-size: 1.33em;
+        }
+    }
+
+    .post-meta {
+        font-size: 16px;
+        color: #929191;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-top: 8px;
+    }
+
+/* Post Format
+ * ============================================== */
+    .post-header {
+        border-bottom: 1px solid #c7c6c6;
+        margin-bottom: $spacing-unit;
+    }
+
+    .post-title {
+        font-size: 42px;
+        letter-spacing: -1px;
+        line-height: 1;
+
+        @include media-query($on-laptop) {
+            font-size: 36px;
+        }
+    }
+
+    .post-content {
+        margin-bottom: $spacing-unit;
+        
+        h2 {
+            font-size: 32px !important;
+            margin-top: 50px;
+
+            @include media-query($on-laptop) {
+                font-size: 28px;
+            }
+        }
+        img{
+            max-width: 900px;
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #333333;
+        }
+/*
+        h3 {
+            font-size: 26px;
+
+            @include media-query($on-laptop) {
+                font-size: 22px;
+            }
+        }
+
+        h4 {
+            font-size: 20px;
+
+            @include media-query($on-laptop) {
+                font-size: 18px;
+            }
+        } */
+    }
+
+
+.col-2{
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.content{
+    width: $content-width-big;
+    margin: 0 auto;
+}
+.foro-content{
+   background: url("../devico.png") no-repeat center left;
+   padding-left: 75px;
+}
+.voice-content{
+   background: url("../voiceusersico.png") no-repeat center left;
+   padding-left: 75px;
+}
+.home{
+    width: 69%;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 800px;
+}
+.aside{
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 45px;
+}
+.aside ul{
+    margin-left: 20px;
+}
+.aside-uno{
+    background: #3cbdb7;
+    padding: 5%;
+}
+.aside-dos{
+    background: #00a2f4;
+    margin-top: 20px;
+    padding: 5%;
+}
+.aside .page-heading{
+    border-color: #ffffff;
+}
+.aside li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.aside li{
+    list-style: none;
+}
+.post{
+    min-height: 800px;
+}
+.fa{
+    color: #3cbdb7;
+}
+.logo{
+    width: 55%;
+}
+.subfooter{
+    height: 32px;
+    font-size: .875em;
+    background: #505050;
+}
+#menuanchors{
+    position: fixed;
+    width: 200px;
+    top: 109px;
+    left: 0;
+    background: #3cbdb7;
+    padding: 10px 15px;
+}
+#menuanchors p{
+    width: 100%;
+}
+#menuanchors p p{
+    display: none;
+}
+#menuanchors a{
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
+    margin: 5px 0;
+    display: block;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+pre, code{
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    font-size: 16px;
+}
+@media screen and (max-width: 1680px) {
+    #menuanchors{
+        display: none;
+    }
+}

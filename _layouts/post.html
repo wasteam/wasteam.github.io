@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="content">
+  <div class="post">
+  
+    <header class="post-header">
+       <h1 class="post-title">{{ page.title }}</h1>
+       <p class="post-meta">Published on {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    </header>
+  
+    <article class="post-content">
+      {{ content }}
+    </article>
+  
+    <div align="center">
+    	<a href="#">
+    	<i class="fa fa-arrow-circle-up fa-2x"></i>
+    	</a>
+    </div>
+    <script type="text/javascript">
+        var withScreen = $(window).width(); 
+        if(withScreen > 1300 && $('.post-content h2').length > 0){
+          var menuanchors = $('<div>');
+          menuanchors.attr('id','menuanchors');
+          var menuanchorsp = $('<p>');
+          $('.post-content h2').each(function( i ) {
+            var menuoneanchor = $('<a>');
+            $(menuoneanchor).text($(this).text());
+            menuoneanchor.attr('href','#title' + i);
+            
+            menuoneanchor.appendTo(menuanchorsp);
+            
+            $(this).attr('id', 'title' + i);
+          });
+          menuanchorsp.appendTo(menuanchors);
+          $('body').append(menuanchors);
+        }
+    </script>
+  </div>
+</div>  
