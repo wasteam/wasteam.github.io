@@ -351,3 +351,60 @@ pre, code{
         display: none;
     }
 }
+@media screen and (max-width: 1300px) {
+    .content{
+        width: 90%;
+    }
+    .aside{
+        display: none;
+    }
+    .home{
+        width: 100%;
+        display: block;
+    }
+    .post-content img{
+        max-width: 580px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .footer .col-2{
+        display: block;
+        width: 100%;
+    }
+    .logo {
+        width: 80%;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .post-list > li .post-text{
+        width: 78%;
+        margin-left: 8%;
+    }
+    .post-list > li .post-text .post-title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .post-list > li .post-text .post-description{
+        font-size: 13px;
+    }
+    .site-header .content .start-new-button{
+        display: none;
+    }
+    .site-header{
+        padding: 20px 0 0;
+        margin-bottom: 0;
+    }
+    .site-header .col-2{
+        width: 80%;
+    }
+    .footer h2{
+        font-size: 19px !important;
+    }
+    .footer p{
+        font-size: 14px !important;
+    }
+    .post-content img{
+        max-width: 400px;
+    }
+}
