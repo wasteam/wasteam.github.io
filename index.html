@@ -10,11 +10,6 @@ layout: default
       {% for post in site.posts %}
         <li>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            <p class="post-date">
-              <span class="day">{{ post.day }}</span>
-              <span class="month">{{ post.month }}</span>
-              <span class="year">{{ post.year }}</span>
-            </p>
             <p class="post-text">
               <span class="post-title">{{ post.title }}</span>
               <span class="post-description">{{ post.description }}</span>

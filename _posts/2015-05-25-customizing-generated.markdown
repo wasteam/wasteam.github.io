@@ -2,9 +2,6 @@
 layout: post
 title: "Customizing generated Windows 10 app with cool features"
 date: 2015-05-25
-year: "2015"
-day: "25"
-month: "May"
 id: 1
 description: "In this walkthrough, we are going to customize a Windows App Studio generated app by using Visual Studio 2015 Community Edition to add some cool features."
 categories:
