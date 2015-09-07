@@ -46,7 +46,7 @@ For the next step, we will configure the application’s Tiles. Use the Logo edi
 
 Now generate the app, download the source code package, and open the “.sln” (solution file) with Visual Studio 2015. If you don’t already have Visual Studio 2015, you can download Visual Studio 2015 Community Edition for free.  If you need help, check the installation instructions here. 
 
-[Texto](https://github.com/wasteam/DJNanoSampleApp/commit/b345c89e8335aa2e42a7e1d9ff57e9c84e13957e "Texto")
+[Changes on the source code package](https://github.com/wasteam/DJNanoSampleApp/commit/b345c89e8335aa2e42a7e1d9ff57e9c84e13957e "Changes on the source code package")
 
 ![doc image](/post-img/1/4.png)
  
@@ -69,7 +69,7 @@ First, we will add a hero (large, headline) image at the top of the section list
 
 To do this, first add the image file to Assets folder in Visual Studio. Assets folder exist in all Visual Studio XAML projects by default, and the purpose of this folder is to contain all media files to be used by the project (images, videos, sounds).
 
-[Texto](https://github.com/wasteam/DJNanoSampleApp/commit/aa1cd8fe26094eb586d4e008a42fc8208ad80375 "Texto")
+[Documents changed on Hero Image development](https://github.com/wasteam/DJNanoSampleApp/commit/aa1cd8fe26094eb586d4e008a42fc8208ad80375 "Document changed on Hero Image development")
 
 ![doc image](/post-img/1/7.png)
 
@@ -129,7 +129,7 @@ Finally, we are going to create a new ListLayout for Tours section.  TextCard is
 
 Create a ListTour from a copy of ListTextCard in the Layout/List project folder. Right click on ListTextCard, select Copy, then paste in the same folder (Layout/List). Next, rename ListTextCard – Copy.xaml to ListTour.xaml. After, you then must to access the XAML file and change the x:Class property replacing ListTextCard with ListTours. Do the same on the .cs file for the class name and class constructor.
 
-[Texto](https://github.com/wasteam/DJNanoSampleApp/commit/3da25edc6a008b43925c3456b24b5f1ce771a6c5 "Texto")
+[Documents changed on ListTour development](https://github.com/wasteam/DJNanoSampleApp/commit/3da25edc6a008b43925c3456b24b5f1ce771a6c5 "Documents changed on ListTour development")
 
 The layout will have exactly the same XAML code, but it now references to a new VisualBreakPoints configuration file.
 
