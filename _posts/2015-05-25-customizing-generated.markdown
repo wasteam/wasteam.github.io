@@ -40,8 +40,6 @@ For the next step, we will configure the application’s Tiles. Use the Logo edi
 
 Now generate the app, download the source code package, and open the “.sln” (solution file) with Visual Studio 2015. If you don’t already have Visual Studio 2015, you can download Visual Studio 2015 Community Edition for free.  If you need help, check the installation instructions here. 
 
-<a href="https://github.com/wasteam/DJNanoSampleApp/commit/b345c89e8335aa2e42a7e1d9ff57e9c84e13957e" target="_blank">Changes on the source code package</a>
-
 ![doc image](/post-img/1/4.png)
  
 
@@ -62,8 +60,6 @@ Now we will begin our app customization process.
 First, we will add a hero (large, headline) image at the top of the section list and stretch this to the app margins. 
 
 To do this, first add the image file to Assets folder in Visual Studio. Assets folder exist in all Visual Studio XAML projects by default, and the purpose of this folder is to contain all media files to be used by the project (images, videos, sounds).
-
-<a href="https://github.com/wasteam/DJNanoSampleApp/commit/aa1cd8fe26094eb586d4e008a42fc8208ad80375" target="_blank">Documents changed on Hero Image development</a>
 
 ![doc image](/post-img/1/7.png)
 
@@ -117,13 +113,11 @@ Modify the background property on Tours SectionListItem referencing the AppBar b
 
 As you can see once you scroll down, the Hero image disappears, improving the UX.  The hero Image is fully integrated with the App design and follows the Windows 10 design guidelines.
 
-Finally, we are going to create a new ListLayout for Tours section.  TextCard is a little too big and is ill-suited for tour information.
+<a href="https://github.com/wasteam/DJNanoSampleApp/commit/aa1cd8fe26094eb586d4e008a42fc8208ad80375" target="_blank">Check the commit for Hero Image changes</a>
 
 #### ListTour
 
-Create a ListTour from a copy of ListTextCard in the Layout/List project folder. Right click on ListTextCard, select Copy, then paste in the same folder (Layout/List). Next, rename ListTextCard – Copy.xaml to ListTour.xaml. After, you then must to access the XAML file and change the x:Class property replacing ListTextCard with ListTours. Do the same on the .cs file for the class name and class constructor.
-
-<a href="https://github.com/wasteam/DJNanoSampleApp/commit/3da25edc6a008b43925c3456b24b5f1ce771a6c5" target="_blank">Documents changed on ListTour development</a>
+Now, we are going to introduce <a href="https://github.com/wasteam/DJNanoSampleApp/commit/3da25edc6a008b43925c3456b24b5f1ce771a6c5" target="_blank">some code changes</a> to create a new ListLayout for Tours section.  TextCard is a little too big and is ill-suited for tour information. Create a ListTour from a copy of ListTextCard in the Layout/List project folder. Right click on ListTextCard, select Copy, then paste in the same folder (Layout/List). Next, rename ListTextCard – Copy.xaml to ListTour.xaml. After, you then must to access the XAML file and change the x:Class property replacing ListTextCard with ListTours. Do the same on the .cs file for the class name and class constructor.
 
 The layout will have exactly the same XAML code, but it now references to a new VisualBreakPoints configuration file.
 
