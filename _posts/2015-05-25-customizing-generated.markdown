@@ -8,6 +8,14 @@ categories:
 ---
 In this walkthrough, we are going to customize a Windows App Studio generated app by using Visual Studio 2015 Community Edition to add some cool features.
 
+Download proyect from:
+<p class="git-button">
+[Proyect on Github](https://github.com/wasteam/DJNanoSampleApp "Proyect on Github")
+</p>
+<p  class="store-button">
+[Proyect on Store](https://www.microsoft.com/en-us/store/apps/dj-nano-show/9wzdncrdkb2n "Proyect on Store")
+</p>
+
 ## Step 1
 
 Navigate to Windows App Studio and create an app targeting Windows 10.  Once you do that, then add the content you want to use. For the sample, we will create a DJ NANO app utilizing three sections: Tours, Videos, and Biography.  We used the Collection section for Tours, a YouTube section for Videos, and custom HTML section for Biography content. 
@@ -37,11 +45,13 @@ For the next step, we will configure the application’s Tiles. Use the Logo edi
 ## Step 4
 
 Now generate the app, download the source code package, and open the “.sln” (solution file) with Visual Studio 2015. If you don’t already have Visual Studio 2015, you can download Visual Studio 2015 Community Edition for free.  If you need help, check the installation instructions here. 
+[Texto](https://github.com/wasteam/DJNanoSampleApp/commit/b345c89e8335aa2e42a7e1d9ff57e9c84e13957e "Texto")
 
 ![doc image](/post-img/1/4.png)
  
 
 ## Work with Visual Studio 2015
+
 
 First, we need to set the x86 build configuration to be able to deploy the application in our local machine (Windows 10 PC).  If you want to deploy the application to a Windows 10 Mobile device or emulator (still in preview) you need to choose ARM.
 
