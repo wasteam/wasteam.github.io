@@ -223,6 +223,12 @@
                 font-size: 28px;
             }
         }
+        h4{
+            font-size: 27px;
+            @include media-query($on-laptop) {
+                font-size: 22px;
+            }
+        }
         img{
             max-width: 900px;
             display: block;
@@ -341,6 +347,22 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+.git-button{
+    background: #3dbdb7 url(../git-ico.png) no-repeat 5px center;
+}
+.store-button{
+    background: #666666; url(../store-ico.png) no-repeat 5px center;
+}
+.buttons{
+    margin: 0;
+    padding: 10px 5px 10px 40px;
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+}
+.buttons a{
+    color: #ffffff;
 }
 pre, code{
     font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;

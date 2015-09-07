@@ -45,13 +45,13 @@ For the next step, we will configure the application’s Tiles. Use the Logo edi
 ## Step 4
 
 Now generate the app, download the source code package, and open the “.sln” (solution file) with Visual Studio 2015. If you don’t already have Visual Studio 2015, you can download Visual Studio 2015 Community Edition for free.  If you need help, check the installation instructions here. 
+
 [Texto](https://github.com/wasteam/DJNanoSampleApp/commit/b345c89e8335aa2e42a7e1d9ff57e9c84e13957e "Texto")
 
 ![doc image](/post-img/1/4.png)
  
 
 ## Work with Visual Studio 2015
-
 
 First, we need to set the x86 build configuration to be able to deploy the application in our local machine (Windows 10 PC).  If you want to deploy the application to a Windows 10 Mobile device or emulator (still in preview) you need to choose ARM.
 
@@ -63,9 +63,13 @@ Compile and run the solution in Visual Studio to view and run the generated app.
 
 Now we will begin our app customization process.
 
+####Hero Image
+
 First, we will add a hero (large, headline) image at the top of the section list and stretch this to the app margins. 
 
 To do this, first add the image file to Assets folder in Visual Studio. Assets folder exist in all Visual Studio XAML projects by default, and the purpose of this folder is to contain all media files to be used by the project (images, videos, sounds).
+
+[Texto](https://github.com/wasteam/DJNanoSampleApp/commit/aa1cd8fe26094eb586d4e008a42fc8208ad80375 "Texto")
 
 ![doc image](/post-img/1/7.png)
 
@@ -121,7 +125,11 @@ As you can see once you scroll down, the Hero image disappears, improving the UX
 
 Finally, we are going to create a new ListLayout for Tours section.  TextCard is a little too big and is ill-suited for tour information.
 
+####Hero Image
+
 Create a ListTour from a copy of ListTextCard in the Layout/List project folder. Right click on ListTextCard, select Copy, then paste in the same folder (Layout/List). Next, rename ListTextCard – Copy.xaml to ListTour.xaml. After, you then must to access the XAML file and change the x:Class property replacing ListTextCard with ListTours. Do the same on the .cs file for the class name and class constructor.
+
+[Texto](https://github.com/wasteam/DJNanoSampleApp/commit/3da25edc6a008b43925c3456b24b5f1ce771a6c5 "Texto")
 
 The layout will have exactly the same XAML code, but it now references to a new VisualBreakPoints configuration file.
 
