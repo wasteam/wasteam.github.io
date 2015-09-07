@@ -63,7 +63,7 @@ Compile and run the solution in Visual Studio to view and run the generated app.
 
 Now we will begin our app customization process.
 
-####Hero Image
+#### Hero Image
 
 First, we will add a hero (large, headline) image at the top of the section list and stretch this to the app margins. 
 
@@ -125,7 +125,7 @@ As you can see once you scroll down, the Hero image disappears, improving the UX
 
 Finally, we are going to create a new ListLayout for Tours section.  TextCard is a little too big and is ill-suited for tour information.
 
-####ListTour
+#### ListTour
 
 Create a ListTour from a copy of ListTextCard in the Layout/List project folder. Right click on ListTextCard, select Copy, then paste in the same folder (Layout/List). Next, rename ListTextCard – Copy.xaml to ListTour.xaml. After, you then must to access the XAML file and change the x:Class property replacing ListTextCard with ListTours. Do the same on the .cs file for the class name and class constructor.
 
