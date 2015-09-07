@@ -59,7 +59,7 @@ Now we will begin our app customization process.
 
 First, we will add a hero (large, headline) image at the top of the section list and stretch this to the app margins. 
 
-To do this, first add the image file to Assets folder in Visual Studio. Assets folder exist in all Visual Studio XAML projects by default, and the purpose of this folder is to contain all media files to be used by the project (images, videos, sounds).
+To do this we will <a href="https://github.com/wasteam/DJNanoSampleApp/commit/aa1cd8fe26094eb586d4e008a42fc8208ad80375" target="_blank">modify the application source code</a>. First, add the image file to Assets folder in Visual Studio. Assets folder exist in all Visual Studio XAML projects by default, and the purpose of this folder is to contain all media files to be used by the project (images, videos, sounds).
 
 ![doc image](/post-img/1/7.png)
 
@@ -113,7 +113,6 @@ Modify the background property on Tours SectionListItem referencing the AppBar b
 
 As you can see once you scroll down, the Hero image disappears, improving the UX.  The hero Image is fully integrated with the App design and follows the Windows 10 design guidelines.
 
-<a href="https://github.com/wasteam/DJNanoSampleApp/commit/aa1cd8fe26094eb586d4e008a42fc8208ad80375" target="_blank">Check the commit for Hero Image changes</a>
 
 #### ListTour
 
