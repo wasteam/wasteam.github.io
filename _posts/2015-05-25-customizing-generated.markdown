@@ -8,13 +8,7 @@ categories:
 ---
 In this walkthrough, we are going to customize a Windows App Studio generated app by using Visual Studio 2015 Community Edition to add some cool features.
 
-Download proyect from:
-<p>
-    <a href="https://github.com/wasteam/DJNanoSampleApp" id="git-button" target="_blank">Proyect on Github</a>
-</p>
-<p>
-    <a href="https://www.microsoft.com/en-us/store/apps/dj-nano-show/9wzdncrdkb2n" id="store-button" target="_blank">Proyect on Store</a>
-</p>
+Download proyect from: <a href="https://github.com/wasteam/DJNanoSampleApp" target="_blank">Proyect on Github</a> or <a href="https://www.microsoft.com/en-us/store/apps/dj-nano-show/9wzdncrdkb2n" target="_blank">Proyect on Store</a>
 
 ## Step 1
 
