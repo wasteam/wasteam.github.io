@@ -349,7 +349,7 @@
     white-space: nowrap;
 }
 #user-content-git-button{
-    background: #3dbdb7 url(../git-ico.png) no-repeat 5px center;
+    background: #3dbdb7 url("../git-ico.png") no-repeat 5px center;
     margin: 0;
     padding: 10px 5px 10px 40px;
     display: inline-block;
@@ -358,7 +358,7 @@
     color: #ffffff;
 }
 #user-content-store-button{
-    background: #666666; url(../store-ico.png) no-repeat 5px center;
+    background: #666666 url("../store-ico.png") no-repeat 5px center;
     margin: 0;
     padding: 10px 5px 10px 40px;
     display: inline-block;
