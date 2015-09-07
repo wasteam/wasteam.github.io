@@ -10,10 +10,10 @@ In this walkthrough, we are going to customize a Windows App Studio generated ap
 
 Download proyect from:
 <p class="git-button">
-[Proyect on Github](https://github.com/wasteam/DJNanoSampleApp "Proyect on Github")
+    <a href="https://github.com/wasteam/DJNanoSampleApp" target="_blank">Proyect on Github</a>
 </p>
 <p  class="store-button">
-[Proyect on Store](https://www.microsoft.com/en-us/store/apps/dj-nano-show/9wzdncrdkb2n "Proyect on Store")
+    <a href="https://www.microsoft.com/en-us/store/apps/dj-nano-show/9wzdncrdkb2n" target="_blank">Proyect on Store</a>
 </p>
 
 ## Step 1
