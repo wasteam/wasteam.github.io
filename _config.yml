@@ -4,7 +4,7 @@ email:
 description: > # this means to ignore newlines until "baseurl:"
   Winodows App Studio Github Documentation
 baseurl: "" 
-url: "http://guiyens.github.io"
+url: "http://wasteam.github.io/"
 twitter_username: username
 github_username: username
 
